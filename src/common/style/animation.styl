@@ -1,0 +1,35 @@
+.fade-side-enter-active, .fade-side-leave-active 
+  transition all .5s
+.fade-side-enter, .fade-side-leave-to /* .fade-side-leave-active below version 2.1.8 */ 
+  opacity 0
+  position relative
+  transform translateX(-30px)
+
+.fade-enter-active, .fade-leave-active 
+  transition opacity .5s
+.fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ 
+  opacity 0
+
+.fade-side-on-enter-active, .fade-side-on-leave-active 
+  transition all .5s
+.fade-side-on-enter, .fade-side-on-leave-to /* .fade-side-on-leave-active below version 2.1.8 */ 
+  opacity 0
+  position relative
+  transform translateY(100px)
+
+.fade-side-left-enter-active, .fade-side-left-leave-active 
+  transition all .5s
+.fade-side-left-enter, .fade-side-left-leave-to /* .fade-side-left-leave-active below version 2.1.8 */ 
+  opacity 0
+  transform translateX(300px)
+
+.scale-enter-active, .scale-leave-active 
+  transition all .5s
+.scale-enter, .scale-leave-to /* .scale-leave-active below version 2.1.8 */
+  opacity 0 
+  transform scale(0.1)
+
+.scale-list-enter, .scale-list-leave-to
+  transform scale(0.1)
+.scale-list-leave-active
+  position absolute
